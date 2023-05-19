@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="196dp"
+        android:layout_height="46dp"
+        android:text="Оплатить заказ"
+        android:textColor="#000000"
+        app:iconTint="#5970C38B"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:text="На карте"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оплата и доставка заказа"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Доставка"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оплата"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2450 рублей"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Итого к оплате:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Наличные"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Доставка"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Самовывоз"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F8E3FF"
+        android:text="Карта"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line_1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#9F8BD9"
+        android:textColorLink="#9F8BD9"
+        tools:checked="false"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:checked="true"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:checked="true"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="307dp"
+        android:layout_height="42dp"
+        android:background="#F8E3FF"
+        android:backgroundTint="#F8E3FF"
+        android:drawableTint="#F8E3FF"
+        android:ems="10"
+        android:foregroundTint="#F8E3FF"
+        android:inputType="textPersonName"
+        android:text="Введите ваше имя"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="307dp"
+        android:layout_height="42dp"
+        android:background="#F8E3FF"
+        android:backgroundTint="#F8E3FF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="307dp"
+        android:layout_height="42dp"
+        android:background="#F8E3FF"
+        android:backgroundTint="#F8E3FF"
+        android:drawableTint="#F8E3FF"
+        android:ems="10"
+        android:foregroundTint="#F8E3FF"
+        android:inputType="textPersonName"
+        android:text="Введите ваш контактный номер"
+        android:textColorLink="#F8E3FF"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/premium_icon_facebook_4494475"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/premium_icon_instagram_4494488"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/premium_icon_twitter_4494477"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/premium_icon_whatsapp_4494494"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="673dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
